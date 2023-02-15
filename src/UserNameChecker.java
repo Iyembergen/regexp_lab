@@ -8,6 +8,8 @@ public class UserNameChecker {
         System.out.println(checkWithRegExp("vovan"));
         System.out.println(checkWithRegExp("vo"));
         System.out.println(checkWithRegExp("Z@OZA"));
+        System.out.println(checkWithRegExp("HELLO"));
+        System.out.println(checkWithRegExp("123"));
     }
     public static boolean checkWithRegExp(String userNameString){
         Pattern p = Pattern.compile("^[a-z0-9_-]{3,15}$");
